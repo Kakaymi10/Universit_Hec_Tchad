@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 2em;
+    height: 75vh;
+    color: white;
+    background-image: url('https://s3-alpha-sig.figma.com/img/050a/aa4a/9b62f902c3de6d1b54b3a5d23341752c?Expires=1687132800&Signature=owlGJ0hUkC~vXIJM7Bn24yTt5M4JByVT1hWshNoplYTupxPaPQIsE3UUWxAELM1~gZrRvkpHywhzY3lOaIPFpfCcrVpsvdfbNzSsxPZD8648onOoT-Amos4aRschqh1tZeyUvCs~n~5X8sd006BpKkmJviqPX28hOcm2s0wxKGAmt-BPC9e95GVNXaXwxuI2RtKZuXd0phl6HJuGf7xmSFONUO-cvz5yLB0Pf~ez~ISUxUuX5dsYkd0fII7unGUz~I~ZJMM2sN0dYyQz7ahO8ZZiMDqw0fggW2reEo59hr4n53lj1HMDkuKUo8Z2-Moyxevp9MTRdzD75IpFV3crIQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+}
+.home_banner{
+    font-size: 3em;
+}
+.home_descr{
+    font-size: 18px;
+}
+.home_btn{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #FF8C38;
+    font-size: 20px;
+    padding: 0.7em;
+    border-radius: 4px;
+    cursor: pointer;
+}
